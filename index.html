@@ -1,34 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Test Page: Don't Panic</title>
+    <meta charset="utf-8">
+    <style>
+      a {
+        color: red;
+      }
+      #exec-bio {
+        background-color: lightgrey;
+      }
+      #exec-cio {
+        background-color: orange;
+      }
+      .bio-box {
+        border: 1px solid black;
+      }
+      .bio-box a {
+        color: green;
+      }
+      .cio-box {
+        background-color: azure;
+      }
+      div {
+        border: 1px solid black;
+      }
+      div a {
+        color: green;
+      }
+      li a {
+        color: blue;
+      }
+      ul {
+        border: 1px solid black;
+      }
+    </style>
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/" style="color:red";>Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
       <li>
-        <a href="http://example.com/" style="color:red";>Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
       <li>
-        <a href="http://example.com/" style="color:red";>Link</a>
+        <a href="http://example.com/">Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color:green";>I"m a link</a>
+    <div id="exec-bio" class="bio-box">
+      <a href="http://example.com/">I"m a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color:green";>I"m a link</a>
+    <div id="exec-cio" class="bio-box">
+      <a href="http://example.com/">I"m a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color:green";>I"m a link</a>
+    <div class="bio-box cio-box">
+      <a href="http://example.com/" >I"m a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color:green";>I"m a link</a>
+    <div class="bio-box">
+      <a href="http://example.com/">I"m a link</a>
     </div>
   </body>
 </html>
